@@ -39,24 +39,16 @@ export default function Navbar() {
           </div>
         </div>
         <div id="box-title-right" ref={boxMenu}>
-          <li id="title-home" className="title-sub-menu" onClick={goto(home)}>
+          <li id="title-home" onClick={goto(home)}>
             home
           </li>
-          <li
-            id="title-product"
-            className="title-sub-menu"
-            onClick={goto(product)}
-          >
+          <li id="title-product" onClick={goto(product)}>
             product
           </li>
-          <li id="title-about" className="title-sub-menu" onClick={goto(about)}>
+          <li id="title-about" onClick={goto(about)}>
             about
           </li>
-          <li
-            id="title-contact"
-            className="title-sub-menu"
-            onClick={goto(contact)}
-          >
+          <li id="title-contact" onClick={goto(contact)}>
             contact
           </li>
         </div>

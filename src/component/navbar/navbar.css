@@ -5,6 +5,51 @@
   transition-duration: 0.3s;
   animation: fadeIn ease-in 0.5s;
 }
+
+@media screen and (min-width: 769px) {
+  li {
+    list-style-type: none;
+    padding: 1rem 2rem 1rem 2rem;
+  }
+  li:active {
+  }
+  #box-navbar {
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+    background-color: rgb(0, 71, 102);
+    #box-title {
+      width: 1080px;
+      display: grid;
+      grid-template-columns: 60% 40%;
+      #box-title-left {
+        #title-logo {
+          padding: 1rem;
+          color: white;
+        }
+        #title-logo:active {
+        }
+        #box-menu {
+          display: none;
+          .box-hamburger-menu {
+            .bar1,
+            .bar2,
+            .bar3 {
+            }
+          }
+        }
+        #box-menu:active {
+        }
+      }
+      #box-title-right {
+        color: white;
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 768px) {
   li {
     list-style-type: none;
