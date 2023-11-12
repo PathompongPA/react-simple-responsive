@@ -31,9 +31,11 @@ export default function Navbar() {
         <div id="box-title-left">
           <div id="title-logo">LOGO</div>
           <div id="box-menu" onClick={showMenu} ref={buttonMenu}>
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
+            <div className="box-hamburger-menu">
+              <div className="bar1"></div>
+              <div className="bar2"></div>
+              <div className="bar3"></div>
+            </div>
           </div>
         </div>
         <div id="box-title-right" ref={boxMenu}>
