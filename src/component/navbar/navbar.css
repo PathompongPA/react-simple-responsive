@@ -2,7 +2,7 @@
   /* border: 2px solid green; */
   user-select: none;
   transition-delay: 0.01s;
-  transition-duration: 0.3s;
+  transition-duration: 0.25s;
   animation: fadeIn ease-in 0.5s;
 }
 
