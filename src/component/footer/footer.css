@@ -1,10 +1,9 @@
 * {
-  /* margin: 1px; */
   padding: 0;
   /* border: 2px solid green; */
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (min-width: 430px) and (max-width: 768px) {
   .title-footer {
     text-align: center;
     margin-bottom: 1rem;
@@ -14,7 +13,66 @@
     color: white;
   }
   .text-footer {
-    /* margin: 1rem 2rem 1rem 2rem; */
+    margin: 1rem 0rem 1rem 0rem;
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+  }
+  p {
+    font-size: 14px;
+  }
+  #box-footer {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* grid-template-rows: 40% 40%; */
+    grid-gap: 1rem;
+    justify-content: center;
+    padding: 5vw;
+    background-color: rgb(6, 77, 108);
+    #box-footer-logo {
+      display: grid;
+      grid-template-columns: 100%;
+      align-items: start;
+      #footer-logo-image-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        #footer-logo-image {
+          width: 100px;
+          height: fit-content;
+          color: white;
+        }
+      }
+      #footer-logo-title {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 80%;
+        color: white;
+        overflow: hidden;
+        justify-content: center;
+      }
+    }
+    #box-footer-contact {
+    }
+    #box-footer-follow {
+    }
+    #box-footer-about {
+    }
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 430px) {
+  .title-footer {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .box-footer {
+    background-color: rgb(6, 77, 108);
+    color: white;
+  }
+  .text-footer {
+    margin: 0.5rem 0rem 0.5rem 0rem;
   }
   p {
     font-size: 14px;
@@ -24,13 +82,13 @@
     grid-template-columns: repeat(1, 80%);
     grid-gap: 2rem;
     justify-content: center;
-    padding: 1rem 0rem 1rem 0rem;
+    padding: 1rem 0rem 3rem 0rem;
     background-color: rgb(6, 77, 108);
     #box-footer-logo {
-      padding-top: 2rem;
+      margin-top: 2rem;
       display: grid;
-      grid-template-columns: repeat(2, 30% 65%);
-      grid-gap: 1rem;
+      grid-template-columns: 35% 65%;
+      /* grid-gap: 2rem; */
       #footer-logo-image-box {
         display: flex;
         justify-content: center;
@@ -39,14 +97,15 @@
           width: 25vw;
           height: fit-content;
           color: white;
+          align-items: start;
         }
       }
       #footer-logo-title {
+        margin-left: 2rem;
         display: flex;
         align-items: center;
         color: white;
         overflow: hidden;
-        text-align: center;
       }
     }
     #box-footer-contact {

@@ -7,15 +7,17 @@ export default function Footer() {
         <div id="footer-logo-image-box">
           <img id="footer-logo-image" src={logo} alt="logo"></img>
         </div>
-        <p id="footer-logo-title">This is description for website in footer</p>
+        <p id="footer-logo-title">
+          This is my practice web development one site responsive design
+        </p>
       </div>
 
       <div id="box-footer-contact" className="box-footer">
         <h4 id="footer-contact-title" className="title-footer">
           Contact
         </h4>
-        <p className="text-footer">tel. : 09x-xxx-xxxx</p>
-        <p className="text-footer">email : email@email.com</p>
+        <p className="text-footer">tel : 096-165-1363</p>
+        <p className="text-footer">email : pathompong.litk@email.com</p>
         <p className="text-footer">address : address</p>
         <p className="text-footer">line ID : lineUser</p>
       </div>
