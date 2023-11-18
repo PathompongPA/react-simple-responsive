@@ -1,11 +1,11 @@
 import "./App.css";
-import { Content1, Footer, Navbar } from "./component";
+import { Footer, Home, Navbar } from "./component";
 
 function App() {
   return (
     <div id="boxApp">
       <Navbar />
-      <Content1 />
+      <Home />
       <Footer />
     </div>
   );
